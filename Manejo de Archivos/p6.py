@@ -14,7 +14,7 @@ def contar_lineas_codigo(archivo_path):
 
 def main():
     ruta_archivo = input("Ingrese la ruta del archivo .py: ")
-    cantidad_lineas = contar_lineas_codigo(ruta_archivo)
+    cantidad_lineas = contar_lineas_codigo('txt/6.txt')
     
     if cantidad_lineas is not None:
         print(f'El archivo tiene {cantidad_lineas} líneas de código (excluyendo comentarios y líneas en blanco).')
