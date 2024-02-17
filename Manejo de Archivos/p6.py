@@ -7,10 +7,10 @@ def contar_lineas_codigo(archivo_path):
                 return len(lineas_codigo)
         else:
             print("El archivo no tiene la extensión .py.")
-            return None
+            return 
     except FileNotFoundError:
         print(f'Archivo no encontrado: {archivo_path}')
-        return None
+        return
 
 def main():
     ruta_archivo = input("Ingrese la ruta del archivo .py: ")
